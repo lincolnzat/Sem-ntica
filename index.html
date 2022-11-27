@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+    <style>
+        body {margin: 0;}
+        .box{
+            height: 50px;
+            width: 100%
+        }
+        picture {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(85, 85, 180);
+            
+        }
+        ul {
+            display: flex;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            gap: 16px;
+            margin-right: 16px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="box">
+        <picture>
+            <img src="https://seeklogo.com/images/B/bird-company-logo-AD481AD91A-seeklogo.com.png" alt="Loremzão">
+        </picture>
+        <nav>
+            <ul>
+        <li>Home</li>
+        <li>Sobre</li>
+        <li>Vagas</li>
+        <li>Contato</li>
+            </ul>        
+        </nav>
+    </header>
+    <main class="box" style="background-color: orange">
+        <article>
+            <section></section>
+            <section></section>
+            <section></section>
+            <aside></aside>
+        </article>
+    </main>
+    <footer class="box" style="background-color:cornflowerblue">
+        <nav></nav>
+    </footer>
+</body>
+</html>
